@@ -1,6 +1,11 @@
 {
-  "name": "Getting Started Example",
+  "name": "Kristiina and Jenny's Excellent Extensions!",
   "version": "1.0",
   "description": "Build an Extension!",
+  "permissions": ["alarms", "storage"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
   "manifest_version": 2
 }
