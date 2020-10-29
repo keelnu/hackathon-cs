@@ -1,0 +1,36 @@
+body,
+html {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: pink;
+}
+
+#board {
+  /* object-fit: fill; */
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  height: 700px;
+  width: 700px;
+  overflow: hidden;
+  border: 3px black solid;
+}
+
+img {
+  display: block;
+  height: 700px;
+  object-fit: fill;
+  object-position: 50% 50%;
+  overflow: hidden;
+}
+
+h1 {
+  border: 0px solid white;
+  padding-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: rgb(22, 129, 22);
+  font-size: 3em;
+}
